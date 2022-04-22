@@ -2,10 +2,10 @@ import 'prosemirror-view/style/prosemirror.css';
 
 import React from 'react';
 import {useProseMirror, ProseMirror} from 'use-prosemirror';
-import { mySchema } from '../editor-schema/mySchema';
+import { mySchema } from './mySchema';
 
 
-export const Editor = () => {
+export const MyEditor = () => {
     const [state, setState] = useProseMirror({schema: mySchema});
     return (
         <div>

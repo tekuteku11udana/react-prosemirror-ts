@@ -1,10 +1,10 @@
-import { Editor } from "./components/Editor";
+import { MyEditor } from "./editors/MyEditor";
 
 
 function App() {
   return (
     <div className="App">
-      <Editor />
+      <MyEditor />
     </div>
   );
 }
